@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3CDEA206-0B30-4D74-B416-D41C42061685}</ProjectGuid>
+    <ProjectGuid>{84CCFFFC-CA73-4BF2-BA22-D185D5B668EA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.ZyryanovAA.ConsoleApp.Lab1.V1</RootNamespace>
-    <AssemblyName>Tyuiu.ZyryanovAA.ConsoleApp.Lab1.V1</AssemblyName>
+    <RootNamespace>Tyuiu.ZyryanovAA.ConsoleApp.Lab3.V6._1</RootNamespace>
+    <AssemblyName>Tyuiu.ZyryanovAA.ConsoleApp.Lab3.V6.1</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,9 +80,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.ZyryanovAA.ConsoleApp.Lab1.V1.Lib\Tyuiu.ZyryanovAA.ConsoleApp.Lab1.V1.Lib.csproj">
-      <Project>{499d170d-e96e-40aa-9c2d-5f4ce2475d6d}</Project>
-      <Name>Tyuiu.ZyryanovAA.ConsoleApp.Lab1.V1.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.ZyryanovAA.ConsoleApp.Lab3.V6.Lib\Tyuiu.ZyryanovAA.ConsoleApp.Lab3.V6.Lib.csproj">
+      <Project>{eb7a3991-b9d3-412b-9d44-b7733757bb64}</Project>
+      <Name>Tyuiu.ZyryanovAA.ConsoleApp.Lab3.V6.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
